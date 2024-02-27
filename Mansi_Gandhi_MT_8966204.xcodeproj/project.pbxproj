@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4B9A672B8E60E7001FA94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A662B8E60E7001FA94D /* AppDelegate.swift */; };
+		EC4B9A692B8E60E7001FA94D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A682B8E60E7001FA94D /* SceneDelegate.swift */; };
+		EC4B9A6B2B8E60E7001FA94D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A6A2B8E60E7001FA94D /* ViewController.swift */; };
+		EC4B9A6E2B8E60E7001FA94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4B9A6C2B8E60E7001FA94D /* Main.storyboard */; };
+		EC4B9A702B8E60E8001FA94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4B9A6F2B8E60E8001FA94D /* Assets.xcassets */; };
+		EC4B9A732B8E60E8001FA94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4B9A712B8E60E8001FA94D /* LaunchScreen.storyboard */; };
+		EC4B9A7E2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A7D2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift */; };
+		EC4B9A882B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A872B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift */; };
+		EC4B9A8A2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A892B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4B9A7A2B8E60E8001FA94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4B9A5B2B8E60E7001FA94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4B9A622B8E60E7001FA94D;
+			remoteInfo = Mansi_Gandhi_MT_8966204;
+		};
+		EC4B9A842B8E60E8001FA94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4B9A5B2B8E60E7001FA94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4B9A622B8E60E7001FA94D;
+			remoteInfo = Mansi_Gandhi_MT_8966204;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4B9A632B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mansi_Gandhi_MT_8966204.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4B9A662B8E60E7001FA94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4B9A682B8E60E7001FA94D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC4B9A6A2B8E60E7001FA94D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC4B9A6D2B8E60E7001FA94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4B9A6F2B8E60E8001FA94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4B9A722B8E60E8001FA94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4B9A742B8E60E8001FA94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4B9A792B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mansi_Gandhi_MT_8966204Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4B9A7D2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mansi_Gandhi_MT_8966204Tests.swift; sourceTree = "<group>"; };
+		EC4B9A832B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mansi_Gandhi_MT_8966204UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4B9A872B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mansi_Gandhi_MT_8966204UITests.swift; sourceTree = "<group>"; };
+		EC4B9A892B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4B9A602B8E60E7001FA94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4B9A762B8E60E8001FA94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4B9A802B8E60E8001FA94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4B9A5A2B8E60E7001FA94D = {
+			isa = PBXGroup;
+			children = (
+				EC4B9A652B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204 */,
+				EC4B9A7C2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests */,
+				EC4B9A862B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests */,
+				EC4B9A642B8E60E7001FA94D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4B9A642B8E60E7001FA94D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B9A632B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204.app */,
+				EC4B9A792B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.xctest */,
+				EC4B9A832B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4B9A652B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204 */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B9A662B8E60E7001FA94D /* AppDelegate.swift */,
+				EC4B9A682B8E60E7001FA94D /* SceneDelegate.swift */,
+				EC4B9A6A2B8E60E7001FA94D /* ViewController.swift */,
+				EC4B9A6C2B8E60E7001FA94D /* Main.storyboard */,
+				EC4B9A6F2B8E60E8001FA94D /* Assets.xcassets */,
+				EC4B9A712B8E60E8001FA94D /* LaunchScreen.storyboard */,
+				EC4B9A742B8E60E8001FA94D /* Info.plist */,
+			);
+			path = Mansi_Gandhi_MT_8966204;
+			sourceTree = "<group>";
+		};
+		EC4B9A7C2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B9A7D2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift */,
+			);
+			path = Mansi_Gandhi_MT_8966204Tests;
+			sourceTree = "<group>";
+		};
+		EC4B9A862B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B9A872B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift */,
+				EC4B9A892B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift */,
+			);
+			path = Mansi_Gandhi_MT_8966204UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4B9A622B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4B9A8D2B8E60E8001FA94D /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_MT_8966204" */;
+			buildPhases = (
+				EC4B9A5F2B8E60E7001FA94D /* Sources */,
+				EC4B9A602B8E60E7001FA94D /* Frameworks */,
+				EC4B9A612B8E60E7001FA94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mansi_Gandhi_MT_8966204;
+			productName = Mansi_Gandhi_MT_8966204;
+			productReference = EC4B9A632B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4B9A782B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4B9A902B8E60E8001FA94D /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_MT_8966204Tests" */;
+			buildPhases = (
+				EC4B9A752B8E60E8001FA94D /* Sources */,
+				EC4B9A762B8E60E8001FA94D /* Frameworks */,
+				EC4B9A772B8E60E8001FA94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4B9A7B2B8E60E8001FA94D /* PBXTargetDependency */,
+			);
+			name = Mansi_Gandhi_MT_8966204Tests;
+			productName = Mansi_Gandhi_MT_8966204Tests;
+			productReference = EC4B9A792B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4B9A822B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4B9A932B8E60E8001FA94D /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_MT_8966204UITests" */;
+			buildPhases = (
+				EC4B9A7F2B8E60E8001FA94D /* Sources */,
+				EC4B9A802B8E60E8001FA94D /* Frameworks */,
+				EC4B9A812B8E60E8001FA94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4B9A852B8E60E8001FA94D /* PBXTargetDependency */,
+			);
+			name = Mansi_Gandhi_MT_8966204UITests;
+			productName = Mansi_Gandhi_MT_8966204UITests;
+			productReference = EC4B9A832B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4B9A5B2B8E60E7001FA94D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EC4B9A622B8E60E7001FA94D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EC4B9A782B8E60E8001FA94D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EC4B9A622B8E60E7001FA94D;
+					};
+					EC4B9A822B8E60E8001FA94D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EC4B9A622B8E60E7001FA94D;
+					};
+				};
+			};
+			buildConfigurationList = EC4B9A5E2B8E60E7001FA94D /* Build configuration list for PBXProject "Mansi_Gandhi_MT_8966204" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4B9A5A2B8E60E7001FA94D;
+			productRefGroup = EC4B9A642B8E60E7001FA94D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4B9A622B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204 */,
+				EC4B9A782B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests */,
+				EC4B9A822B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4B9A612B8E60E7001FA94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4B9A732B8E60E8001FA94D /* LaunchScreen.storyboard in Resources */,
+				EC4B9A702B8E60E8001FA94D /* Assets.xcassets in Resources */,
+				EC4B9A6E2B8E60E7001FA94D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4B9A772B8E60E8001FA94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4B9A812B8E60E8001FA94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4B9A5F2B8E60E7001FA94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4B9A6B2B8E60E7001FA94D /* ViewController.swift in Sources */,
+				EC4B9A672B8E60E7001FA94D /* AppDelegate.swift in Sources */,
+				EC4B9A692B8E60E7001FA94D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4B9A752B8E60E8001FA94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4B9A7E2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4B9A7F2B8E60E8001FA94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4B9A882B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift in Sources */,
+				EC4B9A8A2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4B9A7B2B8E60E8001FA94D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4B9A622B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204 */;
+			targetProxy = EC4B9A7A2B8E60E8001FA94D /* PBXContainerItemProxy */;
+		};
+		EC4B9A852B8E60E8001FA94D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4B9A622B8E60E7001FA94D /* Mansi_Gandhi_MT_8966204 */;
+			targetProxy = EC4B9A842B8E60E8001FA94D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC4B9A6C2B8E60E7001FA94D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4B9A6D2B8E60E7001FA94D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4B9A712B8E60E8001FA94D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4B9A722B8E60E8001FA94D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4B9A8B2B8E60E8001FA94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC4B9A8C2B8E60E8001FA94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4B9A8E2B8E60E8001FA94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mansi_Gandhi_MT_8966204/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-MT-8966204";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC4B9A8F2B8E60E8001FA94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mansi_Gandhi_MT_8966204/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-MT-8966204";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC4B9A912B8E60E8001FA94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-MT-8966204Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mansi_Gandhi_MT_8966204.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mansi_Gandhi_MT_8966204";
+			};
+			name = Debug;
+		};
+		EC4B9A922B8E60E8001FA94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-MT-8966204Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mansi_Gandhi_MT_8966204.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mansi_Gandhi_MT_8966204";
+			};
+			name = Release;
+		};
+		EC4B9A942B8E60E8001FA94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-MT-8966204UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mansi_Gandhi_MT_8966204;
+			};
+			name = Debug;
+		};
+		EC4B9A952B8E60E8001FA94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-MT-8966204UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mansi_Gandhi_MT_8966204;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4B9A5E2B8E60E7001FA94D /* Build configuration list for PBXProject "Mansi_Gandhi_MT_8966204" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4B9A8B2B8E60E8001FA94D /* Debug */,
+				EC4B9A8C2B8E60E8001FA94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4B9A8D2B8E60E8001FA94D /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_MT_8966204" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4B9A8E2B8E60E8001FA94D /* Debug */,
+				EC4B9A8F2B8E60E8001FA94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4B9A902B8E60E8001FA94D /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_MT_8966204Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4B9A912B8E60E8001FA94D /* Debug */,
+				EC4B9A922B8E60E8001FA94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4B9A932B8E60E8001FA94D /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_MT_8966204UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4B9A942B8E60E8001FA94D /* Debug */,
+				EC4B9A952B8E60E8001FA94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4B9A5B2B8E60E7001FA94D /* Project object */;
+}
