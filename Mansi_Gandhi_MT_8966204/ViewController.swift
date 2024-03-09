@@ -49,11 +49,16 @@ class ViewController: UIViewController {
         } else {
             // If the city is not found, display an error message
             errorLabel.text = "City not found"
+            canCityimageView.image = nil // Set image to nil
             errorLabel.isHidden = false
+            errorLabel.textColor = .red
         }
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
     }
 }

@@ -16,10 +16,10 @@
 		EC4B9A7E2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A7D2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204Tests.swift */; };
 		EC4B9A882B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A872B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift */; };
 		EC4B9A8A2B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B9A892B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift */; };
+		EC6452362B9B9EA700FD5CF4 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6452352B9B9EA700FD5CF4 /* CalculationViewController.swift */; };
 		ECA9ED052B97B23F00C27C72 /* lab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9ED042B97B23F00C27C72 /* lab2ViewController.swift */; };
 		ECA9ED072B97B2C000C27C72 /* lab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9ED062B97B2C000C27C72 /* lab3ViewController.swift */; };
 		ECC22B662B8E736200EF7D9D /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC22B652B8E736200EF7D9D /* newViewController.swift */; };
-		ECF160422B965BBC00DD1B47 /* mansiviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF160412B965BBC00DD1B47 /* mansiviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		EC4B9A832B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mansi_Gandhi_MT_8966204UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4B9A872B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mansi_Gandhi_MT_8966204UITests.swift; sourceTree = "<group>"; };
 		EC4B9A892B8E60E8001FA94D /* Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mansi_Gandhi_MT_8966204UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC6452352B9B9EA700FD5CF4 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		ECA9ED042B97B23F00C27C72 /* lab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab2ViewController.swift; sourceTree = "<group>"; };
 		ECA9ED062B97B2C000C27C72 /* lab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab3ViewController.swift; sourceTree = "<group>"; };
 		ECC22B652B8E736200EF7D9D /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
-		ECF160412B965BBC00DD1B47 /* mansiviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mansiviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				EC4B9A682B8E60E7001FA94D /* SceneDelegate.swift */,
 				EC4B9A6A2B8E60E7001FA94D /* ViewController.swift */,
 				EC4B9A6C2B8E60E7001FA94D /* Main.storyboard */,
-				ECF160412B965BBC00DD1B47 /* mansiviewController.swift */,
+				EC6452352B9B9EA700FD5CF4 /* CalculationViewController.swift */,
 				EC4B9A6F2B8E60E8001FA94D /* Assets.xcassets */,
 				EC4B9A712B8E60E8001FA94D /* LaunchScreen.storyboard */,
 				EC4B9A742B8E60E8001FA94D /* Info.plist */,
@@ -274,9 +274,9 @@
 				EC4B9A672B8E60E7001FA94D /* AppDelegate.swift in Sources */,
 				EC4B9A692B8E60E7001FA94D /* SceneDelegate.swift in Sources */,
 				ECC22B662B8E736200EF7D9D /* newViewController.swift in Sources */,
-				ECF160422B965BBC00DD1B47 /* mansiviewController.swift in Sources */,
 				ECA9ED052B97B23F00C27C72 /* lab2ViewController.swift in Sources */,
 				ECA9ED072B97B2C000C27C72 /* lab3ViewController.swift in Sources */,
+				EC6452362B9B9EA700FD5CF4 /* CalculationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

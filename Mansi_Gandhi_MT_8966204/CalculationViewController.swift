@@ -1,5 +1,5 @@
 //
-//  mansiViewController.swift
+//  CalculationViewController.swift
 //  Mansi_Gandhi_MT_8966204
 //
 //  Created by user240208 on 3/4/24.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-class mansiViewController: UIViewController , UITextFieldDelegate {
+class CalculationViewController: UIViewController , UITextFieldDelegate {
     
-    // scene 2 
+    // scene 2
     @IBOutlet weak var aValueText: UITextField!
     @IBOutlet weak var bValueText: UITextField!
     @IBOutlet weak var cValueText: UITextField!
@@ -97,7 +97,7 @@ class mansiViewController: UIViewController , UITextFieldDelegate {
             }
     }
     
-    //create a function for displaying error 
+    //create a function for displaying error
     func displayError(message: String) {
         calculateLabel.text = message
         calculateLabel.isHidden = false
@@ -119,4 +119,5 @@ class mansiViewController: UIViewController , UITextFieldDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+
 
